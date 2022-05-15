@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34d1e8490f412e4f94ff74f53597695, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  storageJson: settings.json
+  autoloadJson: 0
+  settings:
+    defaultBoosters: 5
+    maxMeals: 50
+    maxClients: 20
+    levelTimeInSeconds: 60
+    maxOrderSize: 4
+    ordersSerialize:
+    - meals:
+      - MealC
+    - meals:
+      - MealA
+      - MealB
+  avalableMeals:
+  - {fileID: 11400000, guid: 03a12fef13f36374ebad4bbee1330d58, type: 2}
+  - {fileID: 11400000, guid: e3ac551e79c1aab47b8369bca7bde7a7, type: 2}
+  - {fileID: 11400000, guid: accc2a9bf22475940bddb185a7bc54bd, type: 2}
+  - {fileID: 11400000, guid: a954be59dde54f346b55f081ecaec2be, type: 2}
+  orders:
+  - meals:
+    - {fileID: 11400000, guid: accc2a9bf22475940bddb185a7bc54bd, type: 2}
+  - meals:
+    - {fileID: 11400000, guid: 03a12fef13f36374ebad4bbee1330d58, type: 2}
+    - {fileID: 11400000, guid: e3ac551e79c1aab47b8369bca7bde7a7, type: 2}
